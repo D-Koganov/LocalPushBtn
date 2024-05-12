@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    /* #98ff98 = (120, 100%, 80%)*/
+    background-color:	hsl(120, 100%, 90%);
+}
+
+.weirdHeader {
+    font-size: 8vw;
+    text-align: center;
+    margin-top: 0.2em;/*1rem;*/
+    font-weight: 900;
+    line-height: 0.9em;/*0.7em;*/
+}
+
+
+#counter_out {
+    font-size: 10vw;
+    text-align: center;
+    margin-top: 0.2em;/*1rem;*/
+}
+
+.btn_container {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn_container > button {
+    font-size: 10vw;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+}
